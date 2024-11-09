@@ -8,7 +8,6 @@ public class LinkedList<T> implements Iterable<Node<T>> {
 
     private Node<T> head;
     private Node<T> tail;
-    private Node<T> curr;
     private int size;
 
     public void add(T value){
